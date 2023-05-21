@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Canvas1	main.py	/^Canvas1 = Canvas(root)$/;"	v
+View	ViewBooks.py	/^def View(): $/;"	f
+addBook	AddBook.py	/^def addBook(): $/;"	f
+allBid	IssueBook.py	/^allBid = [] $/;"	v
+allBid	ReturnBook.py	/^allBid = [] #List To store all Book IDs$/;"	v
+background_image	main.py	/^background_image = background_image.resize((newImageSizeWidth,newImageSizeHeight),Image.ANTIALIAS)$/;"	v
+background_image	main.py	/^background_image =Image.open("lib.jpg")$/;"	v
+bookRegister	AddBook.py	/^def bookRegister():$/;"	f
+bookTable	DeleteBook.py	/^bookTable = "books" #Book Table$/;"	v
+bookTable	IssueBook.py	/^bookTable = "books"$/;"	v
+bookTable	ReturnBook.py	/^bookTable = "books" #Book Table$/;"	v
+bookTable	ViewBooks.py	/^bookTable = "books" $/;"	v
+btn1	main.py	/^btn1 = Button(root,text="Add Book Details",bg='black', fg='white', command=addBook)$/;"	v
+btn2	main.py	/^btn2 = Button(root,text="Delete Book",bg='black', fg='white', command=delete)$/;"	v
+btn3	main.py	/^btn3 = Button(root,text="View Book List",bg='black', fg='white', command=View)$/;"	v
+btn4	main.py	/^btn4 = Button(root,text="Issue Book to Student",bg='black', fg='white', command = issueBook)$/;"	v
+btn5	main.py	/^btn5 = Button(root,text="Return Book",bg='black', fg='white', command = returnBook)$/;"	v
+con	DeleteBook.py	/^con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)$/;"	v
+con	IssueBook.py	/^con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)$/;"	v
+con	ReturnBook.py	/^con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)$/;"	v
+con	ViewBooks.py	/^con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)$/;"	v
+con	main.py	/^con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)$/;"	v
+cur	DeleteBook.py	/^cur = con.cursor()$/;"	v
+cur	IssueBook.py	/^cur = con.cursor()$/;"	v
+cur	ReturnBook.py	/^cur = con.cursor()$/;"	v
+cur	ViewBooks.py	/^cur = con.cursor()$/;"	v
+cur	main.py	/^cur = con.cursor()$/;"	v
+delete	DeleteBook.py	/^def delete(): $/;"	f
+deleteBook	DeleteBook.py	/^def deleteBook():$/;"	f
+headingFrame1	main.py	/^headingFrame1 = Frame(root,bg="#FFBB00",bd=5)$/;"	v
+headingLabel	main.py	/^headingLabel = Label(headingFrame1, text="Welcome to \\n DataFlair Library", bg='black', fg='white', font=('Courier',15))$/;"	v
+img	main.py	/^img = ImageTk.PhotoImage(background_image)$/;"	v
+issue	IssueBook.py	/^def issue():$/;"	f
+issueBook	IssueBook.py	/^def issueBook(): $/;"	f
+issueTable	DeleteBook.py	/^issueTable = "books_issued" $/;"	v
+issueTable	IssueBook.py	/^issueTable = "books_issued" $/;"	v
+issueTable	ReturnBook.py	/^issueTable = "books_issued" #Issue Table$/;"	v
+mydatabase	DeleteBook.py	/^mydatabase="vaishnavi"$/;"	v
+mydatabase	IssueBook.py	/^mydatabase="vaishnavi"$/;"	v
+mydatabase	ReturnBook.py	/^mydatabase="vaishnavi"$/;"	v
+mydatabase	ViewBooks.py	/^mydatabase="vaishnavi"$/;"	v
+mydatabase	main.py	/^mydatabase="vaishnavi"$/;"	v
+mypass	DeleteBook.py	/^mypass = "test"$/;"	v
+mypass	IssueBook.py	/^mypass = "test"$/;"	v
+mypass	ReturnBook.py	/^mypass = "test"$/;"	v
+mypass	ViewBooks.py	/^mypass = "test"$/;"	v
+mypass	main.py	/^mypass = "test"$/;"	v
+n	main.py	/^n=0.25$/;"	v
+newImageSizeHeight	main.py	/^    newImageSizeHeight = int(imageSizeHeight*n) $/;"	v
+newImageSizeHeight	main.py	/^    newImageSizeHeight = int(imageSizeHeight\/n) $/;"	v
+newImageSizeWidth	main.py	/^newImageSizeWidth = int(imageSizeWidth*n)$/;"	v
+returnBook	ReturnBook.py	/^def returnBook(): $/;"	f
+returnn	ReturnBook.py	/^def returnn():$/;"	f
+root	main.py	/^root = Tk()$/;"	v
+same	main.py	/^same=True$/;"	v
