@@ -11,6 +11,23 @@ def bookRegister():
     status = bookInfo4.get()
     status = status.lower()
     
+    #insertBooks = "insert into books values( '1211' ,'Artificial Intelligence: A Modern Approach' , 'Stuart Russell Peter Norvig' 'Avail' )"
+  #  insert into books values( "1212" ,"Clean Code: A Handbook of Agile Software Craftsmanship" , " Robert C. Martin" , "Avail" )
+  #insert into books values( "1213" , "Computer Networks" , "David J. Wetherall" , "Avail" )
+  #insert into books values( "1214" , "Database System Concepts" , "Henry F. Korth" , "Avail" )
+  #insert into books values( "1216" , "Moby-Dick" , "Andrew Hunt " , "Avail" )
+  #insert into books values( "1217" , "The Catcher in the Rye" , "Ralph Johnson" , "Avail" )
+  #insert into books values( "1218" , "Pride and Prejudice" , "John L. Hennessy" , "Avail" )
+  #insert into books values( "1224" , "The Lord of the Rings" , " J.R.R. Tolkien" , "Avail" )
+  #insert into books values( "1225" , "The Chronicles of Narnia" , "C.S. Lewis" , "Avail" )
+  #insert into books values( "1226" , "Harry Potter and the Philosopher Stone" , "J.K. Rowling" , "Avail" )
+  #insert into books values( "1227" , "Operating System Concepts" , "J.R.R. Tolkien" , "Avail" )
+  #insert into books values( "1228" , "Introduction to Algorithms" , "Herman Melville" , "Avail" )
+  #insert into books values( "1229" , "The Pragmatic Programmer: Your Journey to Mastery" , " J.D. Salinge" , "Avail" )
+  #insert into books values( "1230" , "Design Patterns: Elements of Reusable Object-Oriented Software" , "Jane Austen" , "Avail" )
+  #insert into books values( "1231" , "Computer Organization Design" , " F. Scott Fitzgerald" , "Avail" )
+  #insert into books values( "1232" , "1984" , "George Orwell" , "Avail" )
+  #insert into books values( "1234" , "To Kill a Mockingbird , Harper Lee" , "Avail" )
     insertBooks = "insert into "+bookTable+" values('"+bid+"','"+title+"','"+author+"','"+status+"')"
     try:
         cur.execute(insertBooks)

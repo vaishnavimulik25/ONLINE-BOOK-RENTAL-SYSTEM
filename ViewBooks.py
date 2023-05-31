@@ -36,14 +36,14 @@ def View():
     labelFrame.place(relx=0.1,rely=0.3,relwidth=0.8,relheight=0.5)
     y = 0.25
     
-    Label(labelFrame, text="%-10s%-20s%-20s%-30s"%('BID','Title','Author','Status'),bg='black',fg='white').place(relx=0.07,rely=0.1)
-    Label(labelFrame, text="----------------------------------------------------------------------------",bg='black',fg='white').place(relx=0.05,rely=0.2)
+    Label(labelFrame, text="%-10s%-40s%-50s%-60s"%('BID','Title','Author','Status'),bg='black',fg='white').place(relx=0.07,rely=0.1)
+    Label(labelFrame, text="------------------------------------------------------------------------------------------------------------------",bg='black',fg='white').place(relx=0.05,rely=0.2)
     getBooks = "select * from "+bookTable
     try:
         cur.execute(getBooks)
         con.commit()
         for i in cur:
-            Label(labelFrame, text="%-10s%-20s%-20s%-30s"%(i[0],i[1],i[2],i[3]),bg='black',fg='white').place(relx=0.07,rely=y)
+            Label(labelFrame, text="%-10s%-40s%-50s%-60s"%(i[0],i[1],i[2],i[3]),bg='black',fg='white').place(relx=0.07,rely=y)
             y += 0.1
     except:
         messagebox.showinfo("Failed to fetch files from database")

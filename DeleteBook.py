@@ -26,9 +26,9 @@ def deleteBook():
         con.commit()
         cur.execute(deleteIssue)
         con.commit()
-        messagebox.showinfo('Success',"Book Record Deleted Successfully")
+        messagebox.showinfo('',"")
     except:
-        messagebox.showinfo("Please check Book ID")
+        messagebox.showinfo("")
     
 
     print(bid)
